@@ -1,0 +1,9 @@
+.message-list {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+app-message {
+  width: 50%;
+}

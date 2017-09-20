@@ -1,0 +1,11 @@
+<md-toolbar color="warn">
+  {{title}}
+  <span class="spacer"></span>
+  <md-slide-toggle [(ngModel)]="leaksActivated" (change)="propagateUpdateLeaks()">Memory Leaks {{activationText}}</md-slide-toggle>
+</md-toolbar>
+
+<md-tab-group (selectChange)="navigateTo($event)">
+  <md-tab label="Home"></md-tab>
+  <md-tab label="Message"></md-tab>
+</md-tab-group>
+<router-outlet></router-outlet>

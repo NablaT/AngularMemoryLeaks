@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+md-card {
+  margin-top: 1em;
+  width: 50%;
+}
+
+p {
+  text-align: center;
+}

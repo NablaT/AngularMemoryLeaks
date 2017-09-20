@@ -1,0 +1,8 @@
+md-card {
+  margin-top: 1em;
+}
+
+.example-header-image {
+  background-image: url('../../../assets/images/panda.png');
+  background-size: cover;
+}
